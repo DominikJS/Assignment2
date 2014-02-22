@@ -1,0 +1,214 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Duru Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	color: #242424;
+}
+
+/* Header begins */
+
+ul#topnav, #rightheader p{
+	font-family: 'Krona One', "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 18px;
+	text-transform: lowercase;
+}
+
+.container {				/* Used in all sections */
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+header {
+	height: 721px;
+	background-image: url('../images/headerbg.jpg');
+}
+
+nav {
+	width: 100%;
+	background-color: rgba(2,2,2,0.3);
+	float: left;
+	padding: 24px 64px;
+}
+
+#logo {
+	float: left;
+	width: 258px;
+	height: 94px;
+	margin-left: 55px;
+	background-image: url('../images/logo.png');
+}
+
+ul#topnav {
+	float: right;
+	margin-right: 65px;
+	margin-top: 36px;
+}
+
+ul#topnav li {
+	display: inline;
+	margin-left: 52px;
+}
+
+ul#topnav li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#leftheader {
+	float: left;
+	margin-left: 50px;
+	margin-top: 28px;
+}
+
+#rightheader {
+	text-align: center;
+	color: #fff;
+	margin-top: 385px;
+	margin-left: 605px;
+	position: absolute;	/* To prevent this line from moving below the picture when shrunk in size, making it invisible and pushing next section's content down */
+}
+
+/* Header ends */
+/* About section begins */
+
+section#about {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+#leftabout {
+	float: left;
+	width: 63%;
+}
+
+#rightabout {
+	float: left;
+	width: 37%;
+	padding-bottom: 78px;
+}
+
+#leftabout p {
+	padding-bottom: 24px;
+	line-height: 24px;
+}
+
+h1, h2, h3 {			/* Used in other sections */
+	font-family: 'Krona One', "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+h1 {					/* Used in other sections */
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {					/* Used in other sections */
+	font-size: 24px;
+}
+
+#about h1 {
+	color: #5dcdb5;
+	margin-top: 100px;
+	padding-bottom: 45px;
+}
+
+#about h2 {
+	padding-top: 14px;
+	padding-bottom: 18px;
+	color: #252525;
+}
+
+#about h3 {
+	font-size: 18px;
+	color: #252525;
+}
+
+/* About section ends */
+/* Menu section begins */
+
+section#menu {
+	width: 100%;
+	float: left;
+	height: 100%;
+	background-image: url('../images/menubg.jpg');
+}
+
+#menu h1 {
+	color: #f95971;
+	margin-top: 82px;
+	padding-bottom: 45px;
+}
+
+ul#menuitems {
+	width: 100%;
+	text-align: center;
+}
+
+.primary {
+	display: inline-block;
+	width: 33%;
+	float: left;
+}
+
+.primary h2 {
+	color: #fafafa;
+	text-transform: uppercase;
+	padding-bottom: 16px;
+}
+
+.secondary li {
+	padding-bottom: 16px;
+}
+
+ul.secondary {
+	padding-bottom: 70px;
+}
+
+/* Menu section ends */
+/* Contact section/footer begins */
+
+footer {
+	height: 280px;
+	background: #252525;
+	clear: both;
+	color: #fafafa;
+}
+
+#contact {
+	float: left;
+	margin-top: 50px;
+}
+
+footer h2 {
+	padding-bottom: 6px;
+}
+
+footer p {
+	line-height: 24px;
+}
+
+footer p:last-child {
+	padding-top: 24px;
+}
+
+#copyright {
+	float: right;
+	margin-top: 22px;
+}
+
+/* Contact section/footer ends */
+
+
+
+
+
+
+
+
+
