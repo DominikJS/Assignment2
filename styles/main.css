@@ -26,6 +26,7 @@ ul#topnav, #rightheader p{
 header {
 	height: 721px;
 	background-image: url('../images/headerbg.jpg');
+	background-size: cover;
 }
 
 nav {
@@ -137,6 +138,7 @@ section#menu {
 	float: left;
 	height: 100%;
 	background-image: url('../images/menubg.jpg');
+	background-size: cover;
 }
 
 #menu h1 {
